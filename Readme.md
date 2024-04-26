@@ -14,7 +14,7 @@ The code uses the FEniCS finite element package (https://fenicsproject.org) to s
 
 The notebook `Fenicsx0.7.1_Intact.ipynb` together with the libraries `lib_fem.py` and `lib_plot.py` contains a more future-proof re-implementation using the more recent FEniCSx v0.7.1 backend of the intact version of the embryo. The main motivation for this is that legacy FEniCS is not straightforward to install on Apple Silicon. 
 
-In order to replicate the findings of the paper as possible we recommend using the legacy FEniCS version. We only include the re-implementation to aid those that do not have access to a machine with x86-compatible CPU.
+In order to replicate the sinulations reported in the paper precisely we recommend using the legacy FEniCS version. We only include the re-implementation to aid those that do not have access to a machine with x86-compatible CPU.
 
 In addition to FEniCS, the code depends on a number of standard python libraries which can be installed using `pip` or `conda`.
 
